@@ -1,7 +1,7 @@
 import java.lang.String;
 
 public class Disemvoweler {
-  private static final char[] vowels = {'a', 'o', 'u', 'e', 'i'};
+  private static final char[] vowels = {'a', 'A', 'o', 'O', 'u', 'U', 'e', 'E', 'i', 'I'};
 
   public static void main(String... args) {
     for (String arg : args) {
